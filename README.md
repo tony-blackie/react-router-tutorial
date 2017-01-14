@@ -25,7 +25,7 @@ You should see a "Hello React Router" message in the browser.
 
 ## Make Some Changes
 
-Open up `modules/App.js` and change the text to something like "Hello
+Open up `modules/App.jsx` and change the text to something like "Hello
 <your name>". The browser automatically reloads with your new code.
 
 ---
