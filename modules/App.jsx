@@ -7,10 +7,10 @@ export default React.createClass({
         <div>
           <ul>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/about" activeStyle={{color: 'red'}}>About</Link>
             </li>
             <li>
-              <Link to="/repos">Repos</Link>
+              <Link to="/repos" activeStyle={{color: 'red'}}>Repos</Link>
             </li>
           </ul>
           {this.props.children}
