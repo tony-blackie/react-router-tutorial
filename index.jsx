@@ -3,7 +3,7 @@ import { render } from 'react-dom'
 import {
     Router,
     Route,
-    hashHistory,
+    browserHistory,
     IndexRoute
 } from 'react-router'
 import App from './modules/App.jsx'
@@ -13,7 +13,7 @@ import Repo from './modules/Repo.jsx'
 import Home from './modules/Home.jsx'
 
 render(
-    <Router history={hashHistory}>
+    <Router history={browserHistory}>
         <Route path="/" component={App}>
             <IndexRoute component={Home}/>
             <Route path="/repos" component={Repos} />
