@@ -4,8 +4,9 @@ module.exports = {
   entry: './index.jsx',
 
   output: {
+    path: 'public',
     filename: 'bundle.js',
-    publicPath: ''
+    publicPath: '/'
   },
 
   module: {
